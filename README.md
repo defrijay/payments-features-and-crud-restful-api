@@ -67,7 +67,9 @@ nodemon
 # Buka url server frontendnya
 http://localhost:5173/
 
-# Buka website url dan isi .env lebih tepatnya STRIPE_KEY= dengan publishable key nya
+# Isi STRIPE_KEY= dan publishable keynya dari website stripenya
+https://dashboard.stripe.com    
+
 
 # Import collections postman dan data users di mongoDB
 
