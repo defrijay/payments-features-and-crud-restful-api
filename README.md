@@ -67,12 +67,17 @@ nodemon
 # Buka url server frontendnya
 http://localhost:5173/
 
+# Buka website url dan isi .env lebih tepatnya STRIPE_KEY= dengan publishable key nya
+
+# Import collections postman dan data users di mongoDB
+
+# Dan jangan lupa untuk conncet atlas cluster dengan mengisi MONGO_URL= di .env
+
 ```
 
 ## Cara Penggunaan
 1. Untuk melakukan pembayaran dapat mengisi data bebas. Namun saat pembayaran anda dapat menggunakan card number `4242 4242 4242 4242`, tanggal `08/24`, dan password CVC `123`
-2. Import collections postman dan data users di mongoDB
-3. Dan untuk melakukan testing API dapat menggunakan postman yang dimana diperlukan registrasi akun terlebih dahulu, yang kemudian login di postman
+2. Dan untuk melakukan testing API dapat menggunakan postman yang dimana diperlukan registrasi akun terlebih dahulu, yang kemudian login di postman
 
 **Catatan**
 Terdapat beberapa testing API yang memerlukan user sebagai admin untuk melakukan testing API seperti saat `GET Income` oleh karena itu anda dapat login dengan username `admin2` dan password `admin2`
